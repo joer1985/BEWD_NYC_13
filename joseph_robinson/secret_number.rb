@@ -77,7 +77,7 @@ end
 third_guess = gets.to_i
 
 if third_guess < secret_number 
-    puts "Too low. Game Over.The Secret Number is #{secret_number}"
+    puts "Too low. Game Over.The Secret Number is #{secret_number}subl "
 else
   if third_guess > secret_number
     puts "Too high! Game Over. The Secret Number is #{secret_number}"
